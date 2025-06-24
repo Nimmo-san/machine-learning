@@ -4,7 +4,7 @@ import torch.optim as optim # optimisers such as SGD, Adam, etc
 
 from torchvision import datasets, transforms # datasets for common datasets, transforms for preprocessing functionality
 from torch.utils.data import DataLoader # efficiently loads and shuffles the dataset in batches
-from torch.utils.data import random_split
+# from torch.utils.data import random_split
 
 
 # Defining the cnn model
